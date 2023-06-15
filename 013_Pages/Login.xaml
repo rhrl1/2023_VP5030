@@ -1,0 +1,33 @@
+﻿<Page x:Class="_013_Pages.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_013_Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="Login">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Margin="30" HorizontalAlignment="Center" 
+                   FontSize="20" FontWeight="Bold" Text="Login"/>
+
+        <StackPanel Margin="10" Orientation="Horizontal">
+            <TextBlock Margin="0 0 20 0" Width="50" 
+                       TextAlignment="Right" Text="Id"/>
+            <TextBox Width="150"/>
+        </StackPanel>
+
+        <StackPanel Margin="10" Orientation="Horizontal">
+            <TextBlock Margin="0 0 20 0" Width="50" 
+                       TextAlignment="Right" Text="Password"/>
+            <PasswordBox Width="150"/>
+        </StackPanel>
+
+        <StackPanel Margin="10" Orientation="Horizontal">
+            <TextBlock Margin="0 0 20 0" Width="50"/>
+            <Button Width="150" Height="25" Content="Login"/>
+        </StackPanel>
+        
+    </StackPanel>
+</Page>
